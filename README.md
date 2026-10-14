@@ -8,23 +8,16 @@ Built with Python, Flask and SymPy by [@kama-crypto](https://github.com/kama-cry
 
 <br clear="left">
 
-> **Status:** ongoing project, not a finished product. It already works, and I plan to keep improving it throughout the year: more techniques, clearer explanations and a better interface. Features listed below describe what works today.
-> The source code is kept in a private repository while the project grows. This repository is the public showcase: description, screenshots and demo. Source code is available on request for evaluation.
-
+> **Status:** ongoing project, not a finished product. It already works, and I plan to keep improving it throughout the year: more techniques, clearer explanations and a better interface (with potential animations/video explanations). Features listed below describe what works today.
+> The source code is kept in a private repository while the project grows. This repository is the public showcase: description, screenshots and demo. Source code is available if requested to check or evaluate.
 ---
 
 ## Demo
-
-<!-- DEMO VIDEO: while editing this file on GitHub, drag your MP4 into the editor. GitHub pastes a link here that shows up as a video player. Replace this comment with it. -->
-
+(https://youtu.be/-ybTvcuMwWE)
 ## Screenshots
+<img width="847" height="911" alt="Screenshot 2026-10-14 155934" src="https://github.com/user-attachments/assets/255bc25a-14cf-444c-9be8-9311ccfd0f9d" />
+<img width="847" height="911" alt="Screenshot 2026-10-14 155934" src="https://github.com/user-attachments/assets/ff6eee42-4d8b-4590-a2b0-9a4268bf7a00" />
 
-<!-- After uploading screenshots into the assets folder, replace this comment with these lines (change the file names to match yours):
-
-![Derivative with step-by-step explanation](assets/screenshot-derivative.png)
-![Definite integral using substitution](assets/screenshot-integral.png)
-
--->
 
 ---
 
@@ -70,9 +63,9 @@ These are real outputs from the app.
 
 ## Limitations
 
-- Technique detection is heuristic (it matches the structure of the expression). Unusual or deeply nested problems still get a correct answer, but the explanation may be less detailed.
+- Technique detection is functioned to match the structure of the expression. Unusual or hard problems still get a correct answer, but the explanation may be less detailed.
 - Input is typed as text (for example `x^3 + 2*x - 5`), which can lead to syntax mistakes.
-- Calculus I scope only: no multivariable calculus, differential equations or series expansions.
+- Calculus I scope only: no multivariable calculus, differential equations or series expansions **yet**.
 
 ## Roadmap
 
