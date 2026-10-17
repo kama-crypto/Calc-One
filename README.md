@@ -6,7 +6,7 @@ A web-based calculus calculator with worked solutions. It covers derivatives, in
 
 Built using **Python, Flask, SymPy, JavaScript, HTML, CSS and MathJax**. The application uses symbolic computation for answers and additional logic to explain which mathematical methods apply. It is an ongoing educational project, not a substitute for checking important results independently.
 
-**[Video demo]** · **[GitHub profile](https://github.com/kama-crypto)**
+**[Video demo https://youtu.be/hfd8O8isvZ4]** · **[GitHub profile](https://github.com/kama-crypto)**
 
 <br clear="left">
 
@@ -14,26 +14,26 @@ Built using **Python, Flask, SymPy, JavaScript, HTML, CSS and MathJax**. The app
 
 ### Taylor & Maclaurin expansions
 
-![Taylor polynomial result with mathematical steps in the Calc One interface](images/taylor-desktop.png)
+![Taylor polynomial result with mathematical steps in the Calc One interface](taylor-desktop.png)
 
 ### Infinite-series convergence
 
-![Convergence classification and explanation for an alternating series](images/convergence-desktop.png)
+![Convergence classification and explanation for an alternating series](convergence-desktop.png)
 
 <details>
 <summary>Additional screenshots</summary>
 
 **Taylor coefficient table**
 
-![Derivative-coefficient table used to construct a Taylor polynomial](images/coefficients-desktop.png)
+![Derivative-coefficient table used to construct a Taylor polynomial](coefficients-desktop.png)
 
 **Recognize a series**
 
-![Recognizing a standard function from the first terms of a series](images/series-recognition-desktop.png)
+![Recognizing a standard function from the first terms of a series](series-recognition-desktop.png)
 
 **Mobile layout**
 
-<img src="images/taylor-mobile.png" alt="Taylor polynomial controls and result on a narrow mobile screen" width="300">
+<img src="taylor-mobile.png" alt="Taylor polynomial controls and result on a narrow mobile screen" width="300">
 
 </details>
 
@@ -77,7 +77,6 @@ The backend separates the calculus solver from the modules used for series analy
 - Some improper integrals, particularly those with singularities inside the interval, require additional validation.
 - Not every infinite series can be classified using the supported tests.
 - Recognizing a pattern from a limited number of terms is not proof that the pattern continues.
-- No overall percentage-accuracy claim has been established; a result such as "99% accurate" would require a defined and independently checked benchmark.
 
 **Next steps:** expand edge-case tests, improve the clarity of explanations, review problematic integrals and update the screenshots as the interface changes.
 
