@@ -6,13 +6,11 @@ A web-based calculus calculator with worked solutions. It covers derivatives, in
 
 Built using **Python, Flask, SymPy, JavaScript, HTML, CSS and MathJax**. The application uses symbolic computation for answers and additional logic to explain which mathematical methods apply. It is an ongoing educational project, not a substitute for checking important results independently.
 
-**[Video demo (earlier build)](https://youtu.be/-ybTvcuMwWE)** · **[GitHub profile](https://github.com/kama-crypto)**
+**[Video demo]** · **[GitHub profile](https://github.com/kama-crypto)**
 
 <br clear="left">
 
 ## Screenshots
-
-Screenshots below were captured from an earlier frontend build. The calculator's interface may have changed since these were taken; updated screenshots will replace them.
 
 ### Taylor & Maclaurin expansions
 
@@ -88,7 +86,5 @@ AI tools were used to assist with the initial implementation. The ongoing projec
 ## Project source and contact
 
 This repository is a **public project showcase**; the application source code is kept separately. Source access for academic review can be requested through [@kama-crypto](https://github.com/kama-crypto).
-
-To add or replace repository images, see [MEDIA_GUIDE.md](MEDIA_GUIDE.md).
 
 © 2026 kama-crypto. All rights reserved. See [LICENSE](LICENSE).
